@@ -5,7 +5,7 @@ This setup builds on the knowledge learned in [this course](https://www.udemy.co
 
 ### Running setup
 
-Before doing anything first copy the example mysql env into a new file named ```mysql.env``` like so ```cp mysql.env.example mysql.env```. Also copy the example laravel env into a file named ```.env``` like so ```cp src.env.example .env```. Modify the mysql credentials/configs and other desired configs in the created env files. Thereafter, run ```docker-compose up -d --build server``` to run the application. The ```--build``` flag ensures that the images are always upto date in the case where the dockerfiles have been modified. For other setup commands check below.
+Before doing anything first copy the example mysql env into a new file named ```mysql.env``` like so ```cp env/mysql.env.example env/mysql.env```. Also copy the example laravel env into a file named ```.env``` like so ```cp src/.env.example src/.env```. Modify the mysql credentials/configs and other desired configs in the created env files. Thereafter, run ```docker-compose up -d --build server``` to run the application. The ```--build``` flag ensures that the images are always upto date in the case where the dockerfiles have been modified. For other setup commands check below.
 
 ### Running composer commands
 
